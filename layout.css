@@ -1,0 +1,81 @@
+body, html {
+  background-color: #848999;
+  height: 100%;
+}
+
+#calculator {
+  width: 400px;
+  height: 600px;
+  border: 1px solid #848999;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 5em;
+  background-color: #4A68CC;
+  position: relative;
+}
+
+#screen {
+  height: 15%;
+  width: 90%;
+  background-color: #FFD0B6;
+  position: relative;
+  top: 20px;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  width: 90%;
+  margin-left: 38px;
+}
+
+.buttons button {
+  height: 70px;
+  width: 70px;
+  margin: 0 10px 10px 0;
+}
+
+button[value="0"] {
+  width: 154px;
+}
+
+button[value="="]{
+  height: 150px;
+  width: 70px;
+  position: absolute;
+  right: 40px;
+  bottom: 38px;
+}
+
+button {
+  font-weight: 600;
+  font-size: 2em;
+  font-family: 'Inconsolata', monospace;
+  background-color: #76DEFF;
+  border-radius: 100px;
+}
+
+h1, p {
+  font-family: 'Inconsolata', monospace;
+  text-align: right;
+  margin-right: 15px;
+}
+
+h1 {
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-size: 3em;
+  width: 345px;
+  height: 50.4px;
+}
+
+p {
+  margin-top: 5px;
+  width: 345px;
+  height: 16.8px;
+}
+
+[value="ac"],[value="ce"]{
+  background-color: #CC654A;
+}
